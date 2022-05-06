@@ -56,6 +56,7 @@ Depois, inicie o servidor do Laravel caso ele ainda não esteja em execução
 ```bash
 $ php artisan
 ```
+----
 Você poderá visitar seu aplicativo em https://localhost:8000
 
 <img src="https://raw.githubusercontent.com/miqueiasmedeiros/API-REGISTER-USER/main/localhost.png">
@@ -78,6 +79,7 @@ Saia do banco para criarmos a migration.
 ```bash
 mysql> exit
 ```
+---
 Agora vou criar um modelo juntamente com a migration:
 
 ```bash
@@ -106,6 +108,7 @@ class Student extends Model
 ```
 
 Além disso, um arquivo de migration (migração) foi criado no diretório `database/migrations` para gerar nossa tabela. Você terá que modificar o arquivo de migration (migração) para `name` e `course` que aceitará valores de string.
+
 ```php
 <?php
 
