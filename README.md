@@ -242,4 +242,17 @@ Route::delete('students/{id}','HouseController@deleteStudent');
 
 ```
 
-<strong>Nota:</strong> todas as rotas em `api.php` são prefixadas com `/api` por padrão
+<strong>Nota:</strong> todas as rotas em `api.php` são prefixadas com `/api` por padrão.
+
+### Importante verificar se as rotas estão funcionando:
+
+* Inicie o servidor do Laravel:
+
+```bash
+$ php artisan serve
+```
+* Em seguida execute o seguinte comando:
+
+```bash
+$ php artisan route:list
+```
