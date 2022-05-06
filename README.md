@@ -334,10 +334,21 @@ Para testar o primeiro endpoint, abra o Postman e faça uma solicitação `PO
 
 ---
 
-## GET
+## 📥 GET
 
 ### Retornar todos os registros de alunos
 
 Agora, vamos visitar o method (método) getAllStudents no HouseController
 
+* Com o app em execução, faça uma solicitação `GET` para o endpoint `/api/students` no Postman.
+
 <img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/GET.png?raw=true"> 
+
+## 📥 GET
+
+### Retornar um registro de aluno
+
+Agora vou fazer uma solicitação `GET` para o endpoint `/api/students/{id}.` `{id}` vai ser id de um registro existente no banco de dados. A solicitação deve retornar apenas um registro específico.
+
+<img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/GetStudent.png?raw=true">
+
