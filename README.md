@@ -28,3 +28,9 @@ O registro do aluno conterá apenas `name` e `course` como detalhes.
 ## 📥️ Instalação
 
 ### Pré-Requisitos 
+
+   * PHP 7.1 ou superior
+   * Composer
+   * MySql
+   * Laravel 5.6 ou posterior
+   * Insomnia ou Postman
