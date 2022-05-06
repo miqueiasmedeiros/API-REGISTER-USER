@@ -57,3 +57,5 @@ Depois, inicie o servidor do Laravel caso ele ainda não esteja em execução
 $ php artisan
 ```
 Você poderá visitar seu aplicativo em https://localhost:8000
+
+<img src="https://raw.githubusercontent.com/miqueiasmedeiros/API-REGISTER-USER/main/localhost.png">
