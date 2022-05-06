@@ -54,7 +54,7 @@ $ cd house
 ```
 Depois, inicie o servidor do Laravel caso ele ainda não esteja em execução:
 ```bash
-$ php artisan
+$ php artisan serve
 ```
 ----
 Você poderá visitar seu aplicativo em https://localhost:8000
@@ -331,6 +331,7 @@ Para testar o primeiro endpoint, abra o Postman e faça uma solicitação `PO
 ## 🗃️ Vamos verificar no Banco de Dados
 ---
 <img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/db.png?raw=true"> 
+
 ---
 
 ## GET
