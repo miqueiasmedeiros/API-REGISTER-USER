@@ -56,3 +56,4 @@ $ cd house
 ```bash
 $ php artisan
 ```
+Você poderá visitar seu aplicativo em https://localhost:8000
