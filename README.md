@@ -335,7 +335,7 @@ Para testar o primeiro endpoint, abra o Postman e faça uma solicitação `PO
 ---
 
 ## GET
----
+
 ### Retornar todos os registros de alunos
 
 Agora, vamos visitar o method (método) getAllStudents no HouseController
