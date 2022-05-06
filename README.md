@@ -269,7 +269,8 @@ $ php artisan route:list
 
 <img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/solucion.png?raw=true">
 
-* Procure por `// protected $namespace = 'App\\Http\\Controllers';` e Remova a `//` . Este procedimento deve resolver o erro de rota.
+* Procure por `// protected $namespace = 'App\\Http\\Controllers';` e Remova a `//` . Este procedimento vai resolver o erro de rota.
+
 ```php
 .
 .
