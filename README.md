@@ -83,4 +83,24 @@ Agora vou criar um modelo juntamente com a migration:
 ```bash
 $ php artisan make:model Student -m
 ```
+Um novo arquivo chamado `Student.php` será criado no diretório `app.`
 
+Modifiquei o arquivo para especificar a tabela do banco de dados e os campos que poderão ser escritos.
+
+```php
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Student extends Model
+{
+    use HasFactory;
+    
+    protected $table = 'students';
+
+    protected $fillable = ['name', 'course'];
+}
+```
