@@ -59,3 +59,17 @@ $ php artisan
 Você poderá visitar seu aplicativo em https://localhost:8000
 
 <img src="https://raw.githubusercontent.com/miqueiasmedeiros/API-REGISTER-USER/main/localhost.png">
+
+Depois, executei o seguinte comando para criar um banco de dados no aplicativo:
+
+```bash
+$ mysql -u root -p
+```
+Haverá uma solicitação para você digitar sua senha do MySQL se tiver definido uma ao fazer a autenticação com o MySQL. Execute este comando para criar um banco de dados chamado `house`:
+Por padrão do MySQL o usuário é root e a senha é em `branco`.
+
+### Criando o Banco de Dados
+
+```bash
+mysql> CREATE DATABASE ´house´;
+```
