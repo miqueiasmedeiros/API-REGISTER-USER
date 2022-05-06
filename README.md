@@ -59,7 +59,7 @@ $ php artisan
 ----
 Você poderá visitar seu aplicativo em https://localhost:8000
 
-<img src="https://raw.githubusercontent.com/miqueiasmedeiros/API-REGISTER-USER/main/localhost.png">
+<img src="https://raw.githubusercontent.com/miqueiasmedeiros/API-REGISTER-USER/main/images/localhost.png">
 
 Depois, executei o seguinte comando para criar um banco de dados no aplicativo:
 
@@ -256,3 +256,5 @@ $ php artisan serve
 ```bash
 $ php artisan route:list
 ```
+> Este é o resultado esperado:
+<img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/routes%20expectative.png?raw=true">
