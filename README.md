@@ -104,3 +104,26 @@ class Student extends Model
     protected $fillable = ['name', 'course'];
 }
 ```
+
+Além disso, um arquivo de migration (migração) foi criado no diretório `database/migrations` para gerar nossa tabela. Você terá que modificar o arquivo de migration (migração) para `name` e `course` que aceitará valores de string.
+```php
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+use App\Student;
+
+class CreateStudentsTable extends Migration
+{
+   
+    public function up()
+    {
+        Schema::create('students', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('name');
+            $table->string('course');
+            $table->timestamps();
+        });
+    }
+```
