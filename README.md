@@ -7,5 +7,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+----
+
 ## 📝️ Descrição
 > Um REST Full API de cadastro de usuários usando o framework <a href="https://laravel.com/" target="_blank">Laravel</a>
+
+----
