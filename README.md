@@ -34,3 +34,26 @@ O registro do aluno conterá apenas `name` e `course` como detalhes.
    * MySql
    * Laravel 5.6 ou posterior
    * Insomnia ou Postman
+
+> Pode baixar o pacote completo com o <a href="https://github.com/leokhoa/laragon/releases/download/5.0.0/laragon-wamp.exe" target="_blank">Laragon</a>.
+
+## 🛠️ Criando e configurando o APP Laravel
+
+> Precisamos criar um aplicativo Laravel, para isso abra o terminal e digite o seguinte comando:
+
+```bash
+# Criando o projeto
+$ composer create-project laravel/laravel house
+```
+> `house` é o nome do meu projeto depois do `laravel/laravel` você pode escolher o nome que quiser para seu projeto. Aguarte terminar o processo. 
+
+> Agora navegue até a pasta do seu novo projeto criado com o seguinte comando:
+
+```bash
+# Navegando até a pasta do projeto
+$ cd house
+```
+> Depois, inicie o servidor do Laravel caso ele ainda não esteja em execução:
+```bash
+$ php artisan
+```
