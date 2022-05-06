@@ -319,13 +319,23 @@ $ php artisan route:list
 
 <img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/CreateStudent.png?raw=true"> 
 
-# 🧪 Testando nossa API 🧪
+# 🧪 Testando a API 🧪
 
+## 📮 POST
 Para testar o primeiro endpoint, abra o Postman e faça uma solicitação `POST` para `http://localhost:8000/api/students`.
 
 <img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/POST.png?raw=true"> 
 
-## Vamos verificar no Banco de Dados
+* Ele funcionou se retornar a mensagem de sucesso junto com o código de resposta `201`.
+
+## 🗃️ Vamos verificar no Banco de Dados
 ---
 <img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/db.png?raw=true"> 
 ---
+
+## GET
+---
+### Retornar todos os registros de alunos
+
+Agora, vamos visitar o method (método) getAllStudents no HouseController
+<img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/GET.png?raw=true"> 
