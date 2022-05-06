@@ -267,4 +267,4 @@ $ php artisan route:list
 
 * Navegue até a pasta Providers e procure o arquivo `RouteServiceProvider.php`:
 
-<img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/solucion?raw=true">
+<img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/solucion.png?raw=true">
