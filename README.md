@@ -39,7 +39,7 @@ O registro do aluno conterá apenas `name` e `course` como detalhes.
 
 ## 🛠️ Criando e configurando o APP Laravel
 
-> Precisamos criar um aplicativo Laravel, para isso abra o terminal e digite o seguinte comando:
+Precisamos criar um aplicativo Laravel, para isso abra o terminal e digite o seguinte comando:
 
 ```bash
 # Criando o projeto
@@ -47,12 +47,12 @@ $ composer create-project laravel/laravel house
 ```
 > `house` é o nome do meu projeto depois do `laravel/laravel` você pode escolher o nome que quiser para seu projeto. Aguarte terminar o processo. 
 
-> Agora navegue até a pasta do seu novo projeto criado com o seguinte comando:
+Agora navegue até a pasta do seu novo projeto criado com o seguinte comando:
 
 ```bash
 $ cd house
 ```
-> Depois, inicie o servidor do Laravel caso ele ainda não esteja em execução:
+Depois, inicie o servidor do Laravel caso ele ainda não esteja em execução:
 ```bash
 $ php artisan
 ```
