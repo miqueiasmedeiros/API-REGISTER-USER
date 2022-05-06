@@ -260,3 +260,11 @@ $ php artisan route:list
 <img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/routes%20expectative.png?raw=true">
 
 ### :no_entry: Caso retorne com o seguinte erro:
+
+<img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/routeError.png?raw=true">
+
+### ✅ Solução:
+
+* Navegue até a pasta Providers e procure o arquivo `RouteServiceProvider.php`:
+
+<img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/solucion?raw=true">
