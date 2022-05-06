@@ -304,3 +304,22 @@ class RouteServiceProvider extends ServiceProvider
 ```bash
 $ php artisan route:list
 ```
+## ⚙️ Configurando o Postman 
+
+* Abra o Postman, vá até `Environments` e faça a seguinte configuração:
+
+<img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/EnvironmentsPostman.png?raw=true">
+
+* Agora abra o `COllections` clique no sinal de `+` e renomeie como preferir, neste exemplo vou colocar o nome `API-REGISTER-USER`.
+
+<img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/Collections.png?raw=true">
+
+* Vamos adicionar nossa primeira `Request` com o método `POST`: 
+* Importante verificar a `variável de ambiente, método do tipo POST, formato do Body e a rota.`
+
+<img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/CreateStudent.png?raw=true"> 
+
+
+
+Para testar o primeiro endpoint, abra o Postman e faça uma solicitação `POST` para `http://localhost:8000/api/students`
+
