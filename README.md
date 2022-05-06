@@ -73,3 +73,14 @@ Por padrão do MySQL o usuário é root e a senha é em `branco`.
 ```bash
 mysql> CREATE DATABASE ´house´;
 ```
+Saia do banco para criarmos a migration.
+
+```bash
+mysql> exit
+```
+Agora vou criar um modelo juntamente com a migration:
+
+```bash
+$ php artisan make:model Student -m
+```
+
