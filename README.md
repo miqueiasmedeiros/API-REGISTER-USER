@@ -319,7 +319,13 @@ $ php artisan route:list
 
 <img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/CreateStudent.png?raw=true"> 
 
+# 🧪 Testando nossa API 🧪
 
 Para testar o primeiro endpoint, abra o Postman e faça uma solicitação `POST` para `http://localhost:8000/api/students`.
 
 <img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/POST.png?raw=true"> 
+
+## Vamos verificar no Banco de Dados
+---
+<img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/db.png?raw=true"> 
+---
