@@ -268,3 +268,38 @@ $ php artisan route:list
 * Navegue até a pasta Providers e procure o arquivo `RouteServiceProvider.php`:
 
 <img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/solucion.png?raw=true">
+
+* Procure por `// protected $namespace = 'App\\Http\\Controllers';` e Remova a `//` . Este procedimento deve resolver o erro de rota.
+```php
+.
+.
+.
+class RouteServiceProvider extends ServiceProvider
+{
+    /**
+     * The path to the "home" route for your application.
+     *
+     * This is used by Laravel authentication to redirect users after login.
+     *
+     * @var string
+     */
+    public const HOME = '/home';
+
+    /**
+     * The controller namespace for the application.
+     *
+     * When present, controller route declarations will automatically be prefixed with this namespace.
+     *
+     * @var string|null
+     */
+    protected $namespace = 'App\\Http\\Controllers';
+
+.
+.
+.
+```
+
+> Execute novamente o comando:
+```bash
+$ php artisan route:list
+```
