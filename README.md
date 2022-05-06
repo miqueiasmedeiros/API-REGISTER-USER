@@ -132,7 +132,7 @@ class CreateStudentsTable extends Migration
 ```
 Em seguida, você pode abrir a pasta do projeto em seu editor de texto preferido e modificar o arquivo `.env` para inserir suas credenciais de banco de dados adequadas. Isso permitirá que o aplicativo se conecte corretamente ao banco de dados recém-criado:
 
-```DB
+```php
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
