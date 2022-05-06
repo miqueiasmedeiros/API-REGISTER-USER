@@ -45,7 +45,7 @@ Precisamos criar um aplicativo Laravel, para isso abra o terminal e digite o seg
 # Criando o projeto
 $ composer create-project laravel/laravel house
 ```
-> `house` é o nome do meu projeto depois do `laravel/laravel` você pode escolher o nome que quiser para seu projeto. Aguarte terminar o processo. 
+`house` é o nome do meu projeto depois do `laravel/laravel` você pode escolher o nome que quiser para seu projeto. Aguarte terminar o processo. 
 
 Agora navegue até a pasta do seu novo projeto criado com o seguinte comando:
 
