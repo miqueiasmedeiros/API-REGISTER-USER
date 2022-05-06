@@ -259,4 +259,4 @@ $ php artisan route:list
 > Este é o resultado esperado:
 <img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/routes%20expectative.png?raw=true">
 
-:no_entry: Caso ocorra o seguinte erro:
+### :no_entry: Caso retorne com o seguinte erro:
