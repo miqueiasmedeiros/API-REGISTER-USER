@@ -50,7 +50,6 @@ $ composer create-project laravel/laravel house
 > Agora navegue até a pasta do seu novo projeto criado com o seguinte comando:
 
 ```bash
-# Navegando até a pasta do projeto
 $ cd house
 ```
 > Depois, inicie o servidor do Laravel caso ele ainda não esteja em execução:
