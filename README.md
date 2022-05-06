@@ -152,7 +152,7 @@ Agora que temos a noção básica da configuração do aplicativo, podemos 
 ```php
 $ php artisan make:controller HouseController
 ```
-Você encontrará um novo arquivo chamado `ApiController.php` no diretório `app\http\controllers`. Em seguida, podemos adicionar os seguintes métodos:
+Você encontrará um novo arquivo chamado `HouseController.php` no diretório `app\http\controllers`. Em seguida, podemos adicionar os seguintes métodos:
 
 ```php
 <?php
@@ -310,7 +310,7 @@ $ php artisan route:list
 
 <img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/EnvironmentsPostman.png?raw=true">
 
-* Agora abra o `COllections` clique no sinal de `+` e renomeie como preferir, neste exemplo vou colocar o nome `API-REGISTER-USER`.
+* Agora abra o `Collections` clique no sinal de `+` e renomeie como preferir, neste exemplo vou colocar o nome `API-REGISTER-USER`.
 
 <img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/Collections.png?raw=true">
 
@@ -339,4 +339,5 @@ Para testar o primeiro endpoint, abra o Postman e faça uma solicitação `PO
 ### Retornar todos os registros de alunos
 
 Agora, vamos visitar o method (método) getAllStudents no HouseController
+
 <img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/GET.png?raw=true"> 
