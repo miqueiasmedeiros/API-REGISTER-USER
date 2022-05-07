@@ -352,3 +352,10 @@ Agora vou fazer uma solicitação `GET` para o endpoint `/api/students/{id}.` 
 
 <img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/GetStudent.png?raw=true">
 
+Como visto na imagem acima, fiz uma solicitação para `http://localhost:8000/api/students/9` e os detalhes do aluno atribuído a esse `id` foram retornados. 
+
+## 🔄 PUT
+
+### Atualizar um registro de aluno
+
+Este método tem como objetivo atualizar um registro de aluno
