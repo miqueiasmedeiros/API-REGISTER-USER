@@ -361,3 +361,12 @@ Como visto na imagem acima, fiz uma solicitação para `http://localhost:8000/
 Este método tem como objetivo atualizar um registro de aluno em nosso banco de dados.
 
 <img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/PUT.png?raw=true">
+
+## ❌ DELETE
+### Deletar um registro
+Este método tem como objetivo Excluir um registro no banco de dados.
+<img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/DELETE.png?raw=true">
+
+Assim concluímos nossa API RESTful CRUD simples usando o Laravel como Framework.
+
+# FIM
