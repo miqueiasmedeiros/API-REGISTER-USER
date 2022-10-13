@@ -359,3 +359,5 @@ Como visto na imagem acima, fiz uma solicitação para `http://localhost:8000/
 ### Atualizar um registro de aluno
 
 Este método tem como objetivo atualizar um registro de aluno em nosso banco de dados.
+
+<img src="https://github.com/miqueiasmedeiros/API-REGISTER-USER/blob/main/images/PUT.png?raw=true">
